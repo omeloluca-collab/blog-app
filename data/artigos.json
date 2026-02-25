@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "slug": "introducao-ao-app-router-no-next-js",
+    "title": "Introdução ao App Router no Next.js",
+    "author": "Anderson Luca",
+    "publishedAt": "2026-02-10",
+    "description": "Entenda como o App Router funciona e por que ele muda a forma de construir apps no Next.js.",
+    "content": "O App Router é a abordagem moderna de roteamento no Next.js.\n\nEle usa Server Components por padrão, permitindo páginas mais rápidas e com melhor SEO.\n\nVocê trabalha com pastas e arquivos (page.tsx, layout.tsx), com rotas aninhadas e organização mais limpa.\n\nNa prática, você consegue controlar cache, geração estática (SSG) e renderização dinâmica (SSR) de forma bem simples."
+  },
+  {
+    "id": "2",
+    "slug": "seo-dinamico-com-generatemetadata",
+    "title": "SEO Dinâmico com generateMetadata",
+    "author": "Anderson Luca",
+    "publishedAt": "2026-02-18",
+    "description": "Como gerar title e description por página, baseado no slug e nos dados do artigo.",
+    "content": "No App Router, você pode gerar metadados de forma dinâmica por rota.\n\nIsso é ótimo para SEO, pois cada artigo pode ter seu próprio title e description.\n\nA função generateMetadata recebe params (como o slug) e você busca o artigo correspondente.\n\nCom isso, cada página fica com meta tags consistentes e prontas para compartilhamento (Open Graph)."
+  }
+]
