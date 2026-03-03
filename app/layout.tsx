@@ -3,10 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Meu Blog",
-    template: "%s | Meu Blog",
-  },
+  title: { default: "Meu Blog", template: "%s | Meu Blog" },
   description: "Blog criado com Next.js App Router e SEO dinâmico.",
 };
 
@@ -15,9 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR">
       <body>
         <header className="container header">
-          <Link className="brand" href="/">
-            Meu Blog
-          </Link>
+          <Link className="brand" href="/">Meu Blog</Link>
         </header>
 
         <main className="container">{children}</main>
